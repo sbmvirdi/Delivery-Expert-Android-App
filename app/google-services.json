@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "234762263926",
+    "firebase_url": "https://delivery-expert-55a86.firebaseio.com",
+    "project_id": "delivery-expert-55a86",
+    "storage_bucket": "delivery-expert-55a86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234762263926:android:4eb9eb58b2b8b3cfe3ae57",
+        "android_client_info": {
+          "package_name": "com.socialstack.deliveyexpert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234762263926-s3msnradtgu9cusmp8igf7kuv3c447ug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.socialstack.deliveyexpert",
+            "certificate_hash": "0e91da3bee33158bdad8f4fa3fcdf9665a11fc1d"
+          }
+        },
+        {
+          "client_id": "234762263926-10m3gm2kmtog86l9g2n4k2lfcu5hjh7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrh5Krq-2lFKMxuuAOhkx1heSCT8gtBqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234762263926-10m3gm2kmtog86l9g2n4k2lfcu5hjh7l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Hi Shubam,\n have a good day!"
+        android:fontFamily="@font/overpass_semibold"
+        android:textSize="35sp"
+        android:id="@+id/greeting"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <include layout="@layout/trackingcard"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/track_m"
+        android:layout_below="@id/greeting"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track with Consignment No."
+        android:fontFamily="@font/overpass_semibold"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_below="@id/track_m"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/consignment"
+        android:layout_marginTop="30dp"
+        />
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Consignment Number..."
+       android:layout_below="@id/consignment"
+       android:layout_marginTop="10dp"
+       android:inputType="number"
+       android:fontFamily="@font/overpass_semibold"
+       android:padding="10dp"
+       android:layout_marginLeft="20dp"
+       android:id="@+id/tracking_number"
+       />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tracking_number"
+        android:text="Track"
+        android:fontFamily="@font/overpass_semibold"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_button"
+        />
+
+</RelativeLayout>
+
